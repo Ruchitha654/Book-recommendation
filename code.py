@@ -10,6 +10,8 @@ pd.set_option('display.max_colwidth', None)
 
 df_books = pd.read_csv(r"C:\Users\user\OneDrive\Desktop\MLproject\Books.csv")
 df_ratings = pd.read_csv(r"C:\Users\user\OneDrive\Desktop\MLproject\Ratings.csv")
+df_users = pd.read_csv(r"C:\Users\user\OneDrive\Desktop\MLproject\Users.csv")
+
 
 df_books = df_books[['ISBN', 'Book-Title', 'Book-Author']]
 df_books.dropna(inplace=True)
